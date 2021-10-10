@@ -24,5 +24,7 @@ def bubble_sort_optimized(lst):
     return lst
 
 
-print(bubble_sort([5, 4, 3, 2, 1]))
-print(bubble_sort_optimized([5, 4, 3, 2, 1]))
+if __name__ == "__main__":
+
+    print(bubble_sort([5, 4, 3, 2, 1]))
+    print(bubble_sort_optimized([5, 4, 3, 2, 1]))

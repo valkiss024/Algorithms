@@ -27,5 +27,6 @@ def merge(left, right):
     return merged_list
 
 
-unordered_list = [15, 65, 8, 17, 150, 1]
-print(merge_sort(unordered_list))
+if __name__ == "__main__":
+    unordered_list = [15, 65, 8, 17, 150, 1]
+    print(merge_sort(unordered_list))
